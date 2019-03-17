@@ -1,0 +1,6 @@
+package cvm.protocol;
+
+struct TurnLight
+{
+    const int8_t TurnNone = 0, TurnRight = 1, TurnLeft = 2;
+}

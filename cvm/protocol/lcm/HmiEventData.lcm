@@ -1,0 +1,12 @@
+package cvm.protocol;
+
+struct HmiEventData
+{
+    int32_t eventId;
+    int32_t name;
+    int32_t type;
+    double dx1;
+    double dy1;
+    double dx2;
+    double dy2;
+}

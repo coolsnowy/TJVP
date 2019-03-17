@@ -1,0 +1,12 @@
+package cvm.protocol;
+
+struct HmiVehicleData
+{
+    boolean HostVehicle;
+    int32_t carId;
+    double dx;
+    double dy;
+    double heading;
+    double speed;
+    int32_t status; 
+}

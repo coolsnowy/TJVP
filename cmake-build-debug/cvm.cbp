@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cvm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cvm\;CMake Files\cvm\base\;CMake Files\cvm\sensor\;CMake Files\cvm\sensor\gps\;CMake Files\cvm\sensor\can\;CMake Files\cvm\sensor\dsrc\;CMake Files\cvm\sensor\dsrc\tests\;CMake Files\cvm\sensor\millimeterwave\;CMake Files\cvm\sensor\ultrasonic\;CMake Files\cvm\sensor\logger\;CMake Files\cvm\worldmodel\;CMake Files\cvm\application\;CMake Files\cvm\application\activesafety\;CMake Files\cvm\application\pushhmi\;CMake Files\cvm\hmi\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/lib/libcvm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 cvm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/lib/libcvm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 cvm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/base/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-gps">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-gps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 cvm-gps"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-gps/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-gps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 cvm-gps/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/gps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-can">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-can" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 cvm-can"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-can/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-can" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 cvm-can/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/can/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-dsrc">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-dsrc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 cvm-dsrc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-dsrc/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-dsrc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 cvm-dsrc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/dsrc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-millimeterwave">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-millimeterwave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 cvm-millimeterwave"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-millimeterwave/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-millimeterwave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 cvm-millimeterwave/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/millimeterwave/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-ultrasonic">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-ultrasonic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 cvm-ultrasonic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-ultrasonic/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-ultrasonic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 cvm-ultrasonic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/ultrasonic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-player">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-player" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 cvm-player"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-player/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-player" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 cvm-player/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-logger">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-logger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 cvm-logger"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-logger/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-logger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 cvm-logger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/sensor/logger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-worldmodel">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-worldmodel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 cvm-worldmodel"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-worldmodel/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-worldmodel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 cvm-worldmodel/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/worldmodel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-app-safety">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-app-safety" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 cvm-app-safety"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-app-safety/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-app-safety" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 cvm-app-safety/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/activesafety/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-app-HMI">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-app-HMI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 cvm-app-HMI"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-app-HMI/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-app-HMI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 cvm-app-HMI/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/application/pushhmi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-consolehmi">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-consolehmi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 cvm-consolehmi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvm-consolehmi/fast">
+				<Option output="/Users/coolsnowy/Desktop/CVMBaic/bin/cvm-consolehmi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/coolsnowy/Desktop/CVMBaic/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/j2735"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/C-ITS"/>
+					<Add directory="/Users/coolsnowy/Desktop/CVMBaic/thirdpart/include/glib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 cvm-consolehmi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/coolsnowy/Desktop/CVMBaic/cmake-build-debug/cvm/hmi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ActiveSafety.cpp">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ActiveSafety.h">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ActiveSafetyConfig.cpp">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ActiveSafetyConfig.h">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/CollisionDetec.cpp">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/CollisionDetec.h">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ComputeTools.cpp">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/ComputeTools.h">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/Main.cpp">
+			<Option target="cvm-app-safety"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/Main.cpp">
+			<Option target="cvm-app-HMI"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/PushHMI.cpp">
+			<Option target="cvm-app-HMI"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/PushHMI.h">
+			<Option target="cvm-app-HMI"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/PushHMIConfig.cpp">
+			<Option target="cvm-app-HMI"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/PushHMIConfig.h">
+			<Option target="cvm-app-HMI"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Channel.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Channel.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/CountDownLatch.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/CountDownLatch.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/EventLoop.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/EventLoop.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/FileLogger.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/FileLogger.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Logging.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Logging.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Poller.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Poller.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/TimerQueue.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/TimerQueue.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Timestamp.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Timestamp.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Utils.cpp">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/Utils.h">
+			<Option target="cvm"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ConsoleHMI.cpp">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ConsoleHMI.h">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ConsoleHMIConfig.cpp">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ConsoleHMIConfig.h">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ProtocolMessageDebuger.cpp">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/ProtocolMessageDebuger.h">
+			<Option target="cvm-consolehmi"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/Can.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/Can.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanConfig.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanConfig.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanDecoderFactory.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanDecoderFactory.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanTransmitterFactory.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CanTransmitterFactory.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/Main.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/BaicCanDecoder.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/BaicCanDecoder.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/PanAsiaCanDecoder.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/PanAsiaCanDecoder.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/RoeweE50CanDecoder.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/decoder/RoeweE50CanDecoder.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/transmitter/SocketCanTransmitter.cpp">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/transmitter/SocketCanTransmitter.h">
+			<Option target="cvm-can"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/C-ITS.cpp">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/C-ITS.h">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/Dsrc.cpp">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/Dsrc.h">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/DsrcConfig.cpp">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/DsrcConfig.h">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/J2735.cpp">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/J2735.h">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/Main.cpp">
+			<Option target="cvm-dsrc"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/Gps.cpp">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/Gps.h">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/GpsConfig.cpp">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/GpsConfig.h">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/GpsTransmitterFactory.cpp">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/GpsTransmitterFactory.h">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/Main.cpp">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/transmitter/NetworkGpsTransmitter.cpp">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/transmitter/NetworkGpsTransmitter.h">
+			<Option target="cvm-gps"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/logger/LcmLogger.cpp">
+			<Option target="cvm-logger"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/logger/LcmLogplayer.cpp">
+			<Option target="cvm-player"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/Main.cpp">
+			<Option target="cvm-millimeterwave"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/MillimeterWave.cpp">
+			<Option target="cvm-millimeterwave"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/MillimeterWave.h">
+			<Option target="cvm-millimeterwave"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/MillimeterWaveConfig.cpp">
+			<Option target="cvm-millimeterwave"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/MillimeterWaveConfig.h">
+			<Option target="cvm-millimeterwave"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/Main.cpp">
+			<Option target="cvm-ultrasonic"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/Ultrasonic.cpp">
+			<Option target="cvm-ultrasonic"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/Ultrasonic.h">
+			<Option target="cvm-ultrasonic"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/UltrasonicConfig.cpp">
+			<Option target="cvm-ultrasonic"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/UltrasonicConfig.h">
+			<Option target="cvm-ultrasonic"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/Intersection.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/Intersection.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/IntersectionQueue.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/IntersectionQueue.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/Main.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/Vehicle.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/Vehicle.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/VehicleQueue.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/VehicleQueue.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/WorldModel.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/WorldModel.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/WorldModelConfig.cpp">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/WorldModelConfig.h">
+			<Option target="cvm-worldmodel"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\base\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/gps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\gps\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/can/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\can\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\dsrc\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/dsrc/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\dsrc\tests\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/millimeterwave/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\millimeterwave\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/ultrasonic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\ultrasonic\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/sensor/logger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\sensor\logger\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/worldmodel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\worldmodel\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\application\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/activesafety/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\application\activesafety\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/application/pushhmi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\application\pushhmi\"/>
+		</Unit>
+		<Unit filename="/Users/coolsnowy/Desktop/CVMBaic/cvm/hmi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cvm\hmi\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

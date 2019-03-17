@@ -1,0 +1,6 @@
+add_subdirectory(gps)
+add_subdirectory(can)
+add_subdirectory(dsrc)
+add_subdirectory(millimeterwave)
+add_subdirectory(ultrasonic)
+add_subdirectory(logger)

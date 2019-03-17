@@ -1,0 +1,6 @@
+package cvm.protocol;
+
+struct MillimeterWaveData
+{
+
+}

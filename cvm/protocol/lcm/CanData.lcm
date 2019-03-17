@@ -1,0 +1,9 @@
+package cvm.protocol;
+
+struct CanData
+{
+    double steeringWheelAngle; // degree
+    double speed;              // m/s
+    double acceleration;       // m/(s*s)
+    int8_t turnLight;          // enumerated in Enumeration.lcm
+} 

@@ -1,0 +1,8 @@
+package cvm.protocol;
+
+struct Approach
+{
+    int32_t approachId;
+    int32_t approachWidth;
+    Point refPoint;
+}

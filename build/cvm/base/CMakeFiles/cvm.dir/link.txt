@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libcvm.a  CMakeFiles/cvm.dir/Channel.cpp.o CMakeFiles/cvm.dir/EventLoop.cpp.o CMakeFiles/cvm.dir/FileLogger.cpp.o CMakeFiles/cvm.dir/Logging.cpp.o CMakeFiles/cvm.dir/Timestamp.cpp.o CMakeFiles/cvm.dir/Poller.cpp.o CMakeFiles/cvm.dir/Utils.cpp.o CMakeFiles/cvm.dir/TimerQueue.cpp.o CMakeFiles/cvm.dir/CountDownLatch.cpp.o
+/usr/bin/ranlib ../../../lib/libcvm.a

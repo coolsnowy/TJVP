@@ -1,0 +1,7 @@
+package cvm.protocol;
+
+struct VehicleCtrlData
+{
+    int32_t carId;
+    int32_t operation;
+}

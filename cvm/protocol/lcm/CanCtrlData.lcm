@@ -1,0 +1,8 @@
+package cvm.protocol;
+
+struct CanCtrlData
+{
+    int32_t id;
+    int8_t  length;
+    byte    data[8];
+}

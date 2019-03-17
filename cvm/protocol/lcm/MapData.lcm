@@ -1,0 +1,9 @@
+package cvm.protocol;
+
+struct MapData
+{
+    int32_t intersectionId;
+    int32_t approachCount;
+    Point refPoint;
+    Approach approach[approachCount];       
+}

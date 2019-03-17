@@ -1,0 +1,21 @@
+package cvm.protocol;
+
+struct Lane
+{
+    int32_t approachId;
+    int32_t approachWidth;
+    Point   refPoint;
+    int32_t directionsAllowDrive;
+    int32_t lightState;
+    int32_t lightTimeToChange;
+    int32_t lightRGYtime[3];
+    int32_t rightTimeToChange;
+    int32_t straightTimeToChange;
+    int32_t leftTimeToChange;    
+    int32_t rightState;
+    int32_t straightState;
+    int32_t leftState;
+    int32_t rightTime[3];
+    int32_t straightTime[3];
+    int32_t leftTime[3];
+}

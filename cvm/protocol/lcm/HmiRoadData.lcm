@@ -1,0 +1,11 @@
+package cvm.protocol;
+
+struct HmiRoadData
+{
+    int32_t deviceId;
+    double distance;
+    int32_t signal_phase;
+    double remain_time;
+    int32_t advice;   
+    int32_t advice_speed;
+}

@@ -1,0 +1,16 @@
+package cvm.protocol;
+
+struct VehicleData
+{
+    int32_t carId;
+    Point location;   // defined in Point.lcm
+    int8_t turnLight; // values available are enumerated in Enumeration.lcm
+    double speed;     // m/s
+    double azimuth;   // degree
+    double acceleration;       // m/(s*s)
+    double steeringWheelAngle; // degree
+    double relativeX;  // m
+    double relativeY;  // m
+    double relativeZ;  // m
+    double relativeAzimuth;  // degree
+}

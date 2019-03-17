@@ -1,0 +1,7 @@
+package cvm.protocol;
+
+struct UltrasonicData
+{
+    int8_t id;
+    int16_t distance;
+}

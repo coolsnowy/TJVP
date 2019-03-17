@@ -1,0 +1,11 @@
+package cvm.protocol;
+
+struct BsmData
+{
+    int32_t carId;
+    Point  location;
+    double azimuth;  // degree
+    double steeringWheelAngle; // degree
+    double acceleration;  // m/(s*s)
+    double speed;   // m/s
+}

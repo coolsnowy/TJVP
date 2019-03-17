@@ -1,0 +1,8 @@
+package cvm.protocol;
+
+struct HmiWarnData
+{
+    int32_t warnId;
+    int32_t warnStr;
+    int32_t warnLev;
+}

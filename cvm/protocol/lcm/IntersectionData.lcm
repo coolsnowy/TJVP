@@ -1,0 +1,9 @@
+package cvm.protocol;
+
+struct IntersectionData
+{
+    int32_t intersectionId;
+    int32_t approachCount;
+    Point refPoint;
+    Lane lanes[approachCount];
+}

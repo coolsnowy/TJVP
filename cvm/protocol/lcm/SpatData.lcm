@@ -1,0 +1,8 @@
+package cvm.protocol;
+
+struct SpatData
+{
+    int32_t intersectionId;
+    int32_t approachCount;
+    Light   light[approachCount];    
+}

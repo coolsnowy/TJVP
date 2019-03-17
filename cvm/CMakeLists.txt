@@ -1,0 +1,5 @@
+add_subdirectory(base)
+add_subdirectory(sensor)
+add_subdirectory(worldmodel)
+add_subdirectory(application)
+add_subdirectory(hmi)
